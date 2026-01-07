@@ -4,6 +4,15 @@
 
 searchgoat-hex is a minimal Python adapter for querying Cribl Search and returning pandas DataFrames. It works both locally (for development/testing) and in Hex notebooks (for production analytics).
 
+## How not to use searchgoat (a very clear disclaimer) 
+If you are query someone else's data (e.g. an employer, client, customer) you should never do anything that breaks their policies. 
+ - There are legal compliance and governance requirements
+ - There are security requirements
+ - Data that lives in Cribl Search may not be suitable for the platform you are pulling that data into. Think about it before you do it.
+ - 
+Use this tool with great discretion and always be mindful of your security posture. Don't just trust, verify!
+
+
 ---
 
 ## Table of Contents
